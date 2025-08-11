@@ -129,6 +129,8 @@ public class Main {
                     rollNo = scanner.nextInt();
                     sms.deleteStudent(rollNo);
                     break;
+                case 5: System.out.println("Exit");
+                default:System.out.println("\"Invalid choice! Please try again.");
             }
         } while (choice != 5);
     }
